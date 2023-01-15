@@ -1,7 +1,6 @@
 export { createImageList };
 
 const gallery = document.querySelector('.gallery');
-
 function createImageList(hits) {
   const markup = hits
     .map(
